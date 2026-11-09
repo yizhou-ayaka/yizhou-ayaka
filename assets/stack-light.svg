@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="402" height="34" viewBox="0 0 402 34" role="img" aria-label="技术栈：Java、Spring Boot、MySQL、Git">
+  <g fill="#FFFFFF" fill-opacity="0.55" stroke="#A8D8EA" stroke-width="1">
+    <rect x="0.5" y="2.5" width="77" height="29" rx="4"/>
+    <rect x="88.5" y="2.5" width="131" height="29" rx="4"/>
+    <rect x="230.5" y="2.5" width="91" height="29" rx="4"/>
+    <rect x="332.5" y="2.5" width="69" height="29" rx="4"/>
+  </g>
+  <g font-family="'Helvetica Neue',Arial,'PingFang SC','Microsoft YaHei',sans-serif"
+     font-size="13" fill="#2F5D73" text-anchor="middle" letter-spacing="0.5">
+    <text x="39" y="21.5">Java</text>
+    <text x="154" y="21.5">Spring Boot</text>
+    <text x="276" y="21.5">MySQL</text>
+    <text x="367" y="21.5">Git</text>
+  </g>
+</svg>

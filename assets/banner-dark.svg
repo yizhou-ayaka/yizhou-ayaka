@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">易舟 · Yizhou</title>
+  <desc id="desc">深冰蓝横幅，左侧为名字与诗句，右侧预留插画空间。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1A24"/>
+      <stop offset="0.55" stop-color="#102430"/>
+      <stop offset="1" stop-color="#162F3D"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A8D8EA" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#A8D8EA" stop-opacity="0"/>
+    </radialGradient>
+    <g id="petal">
+      <path d="M0,-9 C6,-7 10,-1 8,5 C6,10 2,12 0,9 C-2,12 -6,10 -8,5 C-10,-1 -6,-7 0,-9 Z"/>
+    </g>
+    <g id="petal-sm">
+      <path d="M0,-6 C4,-5 7,-1 5.5,3.5 C4,7 1.5,8 0,6 C-1.5,8 -4,7 -5.5,3.5 C-7,-1 -4,-5 0,-6 Z"/>
+    </g>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <ellipse cx="1010" cy="150" rx="300" ry="220" fill="url(#glow)"/>
+
+  <circle cx="1030" cy="165" r="118" fill="none" stroke="#8FC3D8" stroke-width="2"
+          stroke-linecap="round" stroke-dasharray="598 143" stroke-dashoffset="60"
+          opacity="0.3" transform="rotate(-24 1030 165)"/>
+
+  <g fill="#F3C3CF">
+    <use href="#petal" transform="translate(642 74) rotate(24) scale(0.9)" opacity="0.32"/>
+    <use href="#petal-sm" transform="translate(712 250) rotate(-32)" opacity="0.26"/>
+    <use href="#petal" transform="translate(842 96) rotate(68) scale(0.65)" opacity="0.24"/>
+    <use href="#petal-sm" transform="translate(1108 268) rotate(15)" opacity="0.3"/>
+    <use href="#petal" transform="translate(1186 86) rotate(-12) scale(0.8)" opacity="0.2"/>
+    <use href="#petal-sm" transform="translate(960 236) rotate(80)" opacity="0.18"/>
+  </g>
+
+  <text x="96" y="150"
+        font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',serif"
+        font-size="76" font-weight="500" letter-spacing="6" fill="#EAF6FB">易舟</text>
+
+  <rect x="292" y="98" width="44" height="44" rx="3" fill="#E8A9B8"/>
+  <text x="314" y="130" text-anchor="middle"
+        font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',serif"
+        font-size="26" fill="#FFFFFF">舟</text>
+
+  <text x="98" y="192" font-family="'Helvetica Neue',Arial,sans-serif"
+        font-size="14" letter-spacing="7" fill="#8FB8CA">YIZHOU</text>
+
+  <text x="98" y="240"
+        font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong','SimSun',serif"
+        font-size="20" letter-spacing="2" fill="#B9D6E3">以代码为舟，渡向山海。</text>
+
+  <path d="M0,306 C140,292 280,318 420,304 S700,292 840,306 S1120,318 1280,300"
+        fill="none" stroke="#5E93A9" stroke-width="1.5" opacity="0.5"/>
+</svg>
